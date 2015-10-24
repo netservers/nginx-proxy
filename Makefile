@@ -3,7 +3,7 @@
 
 update-dependencies:
 	docker pull jwilder/docker-gen:latest
-	docker pull nginx:latest
+	docker pull debian:jessie
 	docker pull python:3
 	docker pull rancher/socat-docker:latest
 	docker pull appropriate/curl:latest
